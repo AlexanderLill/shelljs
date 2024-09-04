@@ -49,10 +49,6 @@ require('./src/touch.js')
 require('./src/uniq.js')
 require('./src/which.js')
 
-// require('./commands').forEach(function (command) {
-//   require('./src/'  + command + '.js');
-// });
-
 //@
 //@ ### exit(code)
 //@
