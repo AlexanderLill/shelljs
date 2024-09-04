@@ -21,9 +21,33 @@ var common = require('./src/common');
 //@commands
 
 // Load all default commands
-require('./commands').forEach(function (command) {
-  require('./src/' + command);
-});
+require('./src/cat.js')
+require('./src/cd.js')
+require('./src/chmod.js')
+require('./src/cp.js')
+require('./src/dirs.js')
+require('./src/echo.js')
+require('./src/exec.js')
+require('./src/find.js')
+require('./src/grep.js')
+require('./src/head.js')
+require('./src/ln.js')
+require('./src/ls.js')
+require('./src/mkdir.js')
+require('./src/mv.js')
+require('./src/pwd.js')
+require('./src/rm.js')
+require('./src/sed.js')
+require('./src/set.js')
+require('./src/sort.js')
+require('./src/tail.js')
+require('./src/tempdir.js')
+require('./src/test.js')
+require('./src/to.js')
+require('./src/toEnd.js')
+require('./src/touch.js')
+require('./src/uniq.js')
+require('./src/which.js')
 
 //@
 //@ ### exit(code)
